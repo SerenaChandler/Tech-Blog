@@ -4,7 +4,7 @@ const newPostHandler = async (event) => {
   const title = document.querySelector("#email-login").value.trim();
   const content = document.querySelector("#password-login").value.trim();
 
-//   const id = 
+  //   const id =
 
   const response = await fetch(`/api/posts/${id}`, {
     method: "PUT",

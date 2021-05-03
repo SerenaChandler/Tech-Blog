@@ -3,7 +3,7 @@ const newCommentHandler = async (event) => {
 
   const comment_text = document.querySelector("#email-login").value.trim();
 
-//   const post_id = 
+  //   const post_id =
 
   const response = await fetch(`/api/posts/${id}`, {
     method: "POST",
