@@ -3,18 +3,16 @@ const newCommentHandler = async (event) => {
 
   const comment_text = document.querySelector("#email-login").value.trim();
 
-  const post_id = window.location.toString().split("/")[
-    window.location.toString().split("/").length - 1
-  ];
+//   const post_id = 
 
-  const response = await fetch("/api/posts", {
+  const response = await fetch(`/api/posts/${id}`, {
     method: "POST",
-    body: JSON.stringify({ title, content }),
+    body: JSON.stringify({ post_id, comment_text }),
     headers: { "Content-Type": "application/json" },
   });
 
   if (response.ok) {
-    // If successful, redirect the browser to the profile page
+    // If successful, reloads the page
     document.location.reload();
   } else {
     alert(response.statusText);
