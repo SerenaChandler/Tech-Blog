@@ -3,3 +3,19 @@
     margin-left: 20px;
     
 }
+
+.background {
+    background-color: rgb(255, 244, 228);
+}
+
+.btn {
+    background-color: rgb(87, 146, 255);
+    border: white;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    
+    text-align: center;
+}
