@@ -1,21 +1,23 @@
 <div>
 
-    <div>
-        <h1>HOME</h1>
+    <div class="bg-dark">
+        <h1 class="text-white">HOME</h1>
     </div>
 
     <!-- Loop over each object in the projects array -->
-   
- <div id="posts">
+
+    <div id="posts">
 
 
 
-    {{#each posts}}
-    
-    <br>text{{content}}
-    <br>
-    {{/each}}
+        {{#each posts}}
 
-</div>
-    
+        <p>{{title}}
+        {{format_date date}}<p>
+       <h2> {{content}} </h2>
+        
+        {{/each}}
+
+    </div>
+
 </div>

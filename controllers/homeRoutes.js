@@ -9,7 +9,9 @@ router.get("/", async (req, res) => {
         attributes: [
             'id',
             'title',
+            'date',
             'content',
+            
             
         ],
         include: [{

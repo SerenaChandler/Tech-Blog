@@ -1,18 +1,20 @@
 [
     {
       "title": "Lorem Ipsum I",
+      "date": "5/6/21",
       "content": "test"
       
     },
     {
       "title": "Lorem Ipsum II",
+      "date": "5/6/21",
       "content": "test"
       
     },
     {
       "title": "Lorem Ipsum III",
-      "content": "test"
-      
+      "content": "test",
+      "date": "5/6/21"
     }
   ]
   
